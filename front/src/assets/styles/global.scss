@@ -1,0 +1,104 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+@import "setup/typography.scss";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+@import "basics/links.scss";
+@import "basics/buttons.scss";
+@import "basics/ui.scss";
+
+// Views
+@import "views/profile.scss";
+@import "views/activity.scss";
+@import "views/dashboard.scss";
+
+// Components
+@import "components/cat-card.scss";
+@import "components/activity_det.scss";
+@import "components/footer.scss";
+@import "components/articles.scss";
+@import "components/card.scss";
+@import "components/main-header.scss";
+@import "components/form-edit.scss";
+@import "components/jumbo.scss";
+@import "components/user_profile.scss";
+@import "components/signup.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+/* helpers */
+
+.green {
+    color: #43c155;
+    display: inline;
+}
+
+/* flex */
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.asc {
+    align-self: center;
+}
+
+.loader {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    max-height: 700px;
+}
+
+/* list */
+
+.clean-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
