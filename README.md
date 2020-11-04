@@ -1,4 +1,4 @@
-# health-e-new
+# Health-e Marketplace
 A marketplace for healthy lifestyle activities
 
 Live version:
