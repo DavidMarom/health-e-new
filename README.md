@@ -1,2 +1,5 @@
 # health-e-new
-Marketplace for healthy lifestyle activities
+A marketplace for healthy lifestyle activities
+
+Live version:
+https://health-e.herokuapp.com/#/
